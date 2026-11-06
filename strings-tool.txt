@@ -1,0 +1,1614 @@
+===== PATTERN: tool_use =====
+121 strings match "tool_use".
+[ev_2187cb139fe979a74046104e906f4ecf733fa856c9303a223d1c20f23e577de3; observed]
+matches:
+  -
+    address: 0x104d778cc
+    references:
+
+    section: __bun
+    text: Forward subagent text and thinking blocks as assistant/user messages with parent_tool_use_id set (only works with --print and --output-format=stream-json)
+  -
+    address: 0x104d7f488
+    references:
+
+    section: __bun
+    text: parent_tool_use_id
+  -
+    address: 0x104d912c0
+    references:
+
+    section: __bun
+    text: tool_use_id
+  -
+    address: 0x104d9b88c
+    references:
+
+    section: __bun
+    text: tool_use
+
+  -
+    address: 0x104da0694
+    references:
+
+    section: __bun
+    text: tool_use_summary
+  -
+    address: 0x104da4aec
+    references:
+
+    section: __bun
+    text: tool_use_result
+  -
+    address: 0x104da6738
+    references:
+
+    section: __bun
+    text: peer_tool_use_omitted
+  -
+    address: 0x104e1f504
+    references:
+
+    section: __bun
+    text: [sdkMessageAdapter] Dropping tool_progress frame with a non-string tool_name/tool_use_id or non-finite elapsed_time_seconds
+  -
+    address: 0x104e1fb68
+    references:
+
+    section: __bun
+    text: [sdkMessageAdapter] Ignoring tool_use_summary message
+  -
+    address: 0x104e20584
+    references:
+
+    section: __bun
+    text: tool_use_cleared_count
+  -
+    address: 0x104e275dc
+    references:
+
+    section: __bun
+    text: server_tool_use
+  -
+    address: 0x104e275f4
+    references:
+
+    section: __bun
+    text: mcp_tool_use
+  -
+    address: 0x104e29eac
+    references:
+
+    section: __bun
+    text: after_tool_use
+  -
+    address: 0x104e2f05c
+    references:
+
+    section: __bun
+    text: deferred_tool_use
+  -
+    address: 0x104e5308c
+    references:
+
+    section: __bun
+    text: invalid_tool_use_id
+  -
+    address: 0x104e9ac08
+    references:
+
+    section: __bun
+    text: grouped_tool_use
+  -
+    address: 0x104eb76fc
+    references:
+
+    section: __bun
+    text: tool_use_error
+  -
+    address: 0x104ebf10c
+    references:
+
+    section: __bun
+    text: ^\s*<tool_use_error>([\s\S]*)<\/tool_use_error>\s*$
+  -
+    address: 0x104ebf148
+    references:
+
+    section: __bun
+    text: <\/?tool_use_error\b
+  -
+    address: 0x104eceee4
+    references:
+
+    section: __bun
+    text: Input to command is JSON with tool_name, tool_input, tool_use_id, error, error_type, is_interrupt, and is_timeout.
+Exit code 0 - stdout shown in transcript mode (ctrl+o)
+Exit code 2 - show stderr to model immediately
+Other exit codes - show stderr to user only$
+  -
+    address: 0x104ecf01c
+    references:
+
+    section: __bun
+    text: Fires once after every tool call in a batch has resolved, before the next model request. Input includes tool_calls (array of {tool_name, tool_input, tool_use_id, tool_response}).
+Return additionalContext via hookSpecificOutput to inject context once for the whole batch.
+Exit code 2 - stop the agentic loop (stderr shown to user only)
+Other exit codes - show stderr to user only
+  -
+    address: 0x104ecf1d8
+    references:
+
+    section: __bun
+    text: Input to command is JSON with tool_name, tool_input, tool_use_id, and reason.
+Return {"hookSpecificOutput":{"hookEventName":"PermissionDenied","retry":true}} to tell the model it may retry.
+Exit code 0 - stdout shown in transcript mode (ctrl+o)
+Other exit codes - show stderr to user only
+  -
+    address: 0x104ed012c
+    references:
+
+    section: __bun
+    text: Input to command is JSON with tool_name, tool_input, and tool_use_id.
+Output JSON with hookSpecificOutput containing decision to allow or deny.
+Exit code 0 - use hook decision if provided
+Other exit codes - show stderr to user only
+  -
+    address: 0x104f3d550
+    references:
+
+    section: __bun
+    text:  tool_use name=
+  -
+    address: 0x104f50200
+    references:
+
+    section: __bun
+    text: malformed_tool_use_exhausted
+  -
+    address: 0x104f525d8
+    references:
+
+    section: __bun
+    text: set_in_progress_tool_use_ids
+  -
+    address: 0x104f52a78
+    references:
+
+    section: __bun
+    text: CLAUDE_CODE_EMIT_TOOL_USE_SUMMARIES
+  -
+    address: 0x104f53904
+    references:
+
+    section: __bun
+    text: <tool_use_error>Error: No such tool available: 
+  -
+    address: 0x104f5393c
+    references:
+
+    section: __bun
+    text: </tool_use_error>
+  -
+    address: 0x104f53a20
+    references:
+
+    section: __bun
+    text: <tool_use_error>Cancelled: Claude ended the conversation</tool_use_error>
+  -
+    address: 0x104f53a98
+    references:
+
+    section: __bun
+    text: <tool_use_error>Error: Streaming fallback - tool execution discarded</tool_use_error>
+  -
+    address: 0x104f547e4
+    references:
+
+    section: __bun
+    text: tool_use_summary_generation
+  -
+    address: 0x104f54808
+    references:
+
+    section: __bun
+    text: summary_tool_use_generate
+  -
+    address: 0x104f5482c
+    references:
+
+    section: __bun
+    text: tool_use_summary_generation_failed
+  -
+    address: 0x104f58460
+    references:
+
+    section: __bun
+    text: malformed_tool_use_retry&
+  -
+    address: 0x104f58480
+    references:
+
+    section: __bun
+    text: tengu_malformed_tool_use_retry_outcome
+  -
+    address: 0x104f58678
+    references:
+
+    section: __bun
+    text: tengu_malformed_tool_use_response
+  -
+    address: 0x104f59980
+    references:
+
+    section: __bun
+    text: tombstoned_had_tool_use
+  -
+    address: 0x104f59e14
+    references:
+
+    section: __bun
+    text: salvaged_tool_use_count
+  -
+    address: 0x104f59e50
+    references:
+
+    section: __bun
+    text: had_empty_input_tool_use
+  -
+    address: 0x104f66b64
+    references:
+
+    section: __bun
+    text: ^(?:<tool_use_error>)?\s*
+  -
+    address: 0x104faafc4
+    references:
+
+    section: __bun
+    text: Page text. PostToolUse hooks get it; tool_use_result does not.
+  -
+    address: 0x104fb4cc8
+    references:
+
+    section: __bun
+    text: 
+tool_uses: 
+  -
+    address: 0x104fb6d34
+    references:
+
+    section: __bun
+    text: tool_uses
+  -
+    address: 0x104fb87fc
+    references:
+
+    section: __bun
+    text: tool_use:
+  -
+    address: 0x104fc13ac
+    references:
+
+    section: __bun
+    text: tool_use_ids
+  -
+    address: 0x104fc1434
+    references:
+
+    section: __bun
+    text: invalid_handoff: tool_use_ids repeat%
+  -
+    address: 0x104fc1560
+    references:
+
+    section: __bun
+    text:  holds a tool_use block
+  -
+    address: 0x104fc1580
+    references:
+
+    section: __bun
+    text: invalid_handoff: tool_use 
+  -
+    address: 0x104fc1bd4
+    references:
+
+    section: __bun
+    text:  answers no earlier tool_use in the turn0
+total: 121
+
+===== PATTERN: tool_result =====
+55 strings match "tool_result".
+[ev_00cfcac9f0ad405e1d8484c05592d299f9f4eb245b94cca1f12c6cad69cd854c; observed]
+matches:
+  -
+    address: 0x104d2e938
+    references:
+
+    section: __bun
+    text: TOOL_RESULT_ANSWER_SCHEMA
+  -
+    address: 0x104d4184c
+    references:
+
+    section: __bun
+    text: END_CONVERSATION_TOOL_RESULT
+  -
+    address: 0x104ddaae8
+    references:
+
+    section: __bun
+    text: tool_result
+  -
+    address: 0x104e155f0
+    references:
+
+    section: __bun
+    text: tengu_remote_tool_result_rendered
+  -
+    address: 0x104e1fd40
+    references:
+
+    section: __bun
+    text: tool_result_meta
+  -
+    address: 0x104e20424
+    references:
+
+    section: __bun
+    text: tengu_refusal_retraction_orphan_tool_result
+  -
+    address: 0x104e3f4cc
+    references:
+
+    section: __bun
+    text: remote_tool_result_too_large
+  -
+    address: 0x104e40500
+    references:
+
+    section: __bun
+    text: _tool_result
+  -
+    address: 0x104e9e6ac
+    references:
+
+    section: __bun
+    text: advisor_tool_result
+  -
+    address: 0x104eb41dc
+    references:
+
+    section: __bun
+    text: advisor_tool_result_error
+  -
+    address: 0x104eb5d14
+    references:
+
+    section: __bun
+    text: tool_search_tool_result
+  -
+    address: 0x104eb60dc
+    references:
+
+    section: __bun
+    text: primitive_tool_result_reported:
+  -
+    address: 0x104ec0590
+    references:
+
+    section: __bun
+    text: large_tool_results
+  -
+    address: 0x104f44180
+    references:
+
+    section: __bun
+    text: CLAUDE_CODE_TRANSCRIPT_SLIM_TOOL_RESULTS#
+  -
+    address: 0x104f5448c
+    references:
+
+    section: __bun
+    text: tengu_mcp_tool_result_ended_turn8
+  -
+    address: 0x104f5a628
+    references:
+
+    section: __bun
+    text: tool_result pairing failed while ending the turn(
+  -
+    address: 0x104fa6a88
+    references:
+
+    section: __bun
+    text: web_search_tool_result
+  -
+    address: 0x104fb8810
+    references:
+
+    section: __bun
+    text: tool_result:%
+  -
+    address: 0x104fc1bac
+    references:
+
+    section: __bun
+    text: invalid_handoff: tool_result 
+  -
+    address: 0x10510c068
+    references:
+
+    section: __bun
+    text: ] Received tool_result without tool_use_id
+  -
+    address: 0x10510c09c
+    references:
+
+    section: __bun
+    text: ] Received tool_result for unknown call: 
+  -
+    address: 0x10510c750
+    references:
+
+    section: __bun
+    text: supports_tool_result_notices
+  -
+    address: 0x10514ab60
+    references:
+
+    section: __bun
+    text: "type":"tool_result"
+  -
+    address: 0x10517abbc
+    references:
+
+    section: __bun
+    text: The last message must contain only tool_result content if any is presentJ
+  -
+    address: 0x10517ac0c
+    references:
+
+    section: __bun
+    text: tool_result blocks are not matching any tool_use from the previous message
+  -
+    address: 0x10517ac60
+    references:
+
+    section: __bun
+    text: ids of tool_result blocks and tool_use blocks from previous message do not match(
+  -
+    address: 0x1051a6368
+    references:
+
+    section: __bun
+    text: True when the user edited the plan (CCR web UI or Ctrl+G); determines whether the plan is echoed back in tool_resultK
+  -
+    address: 0x1052708d4
+    references:
+
+    section: __bun
+    text: mcp_tool_result
+  -
+    address: 0x10527acdc
+    references:
+
+    section: __bun
+    text: ccr_tool_result_blank
+  -
+    address: 0x10531f97c
+    references:
+
+    section: __bun
+    text: unexpected `tool_use_id` found in `tool_result`
+  -
+    address: 0x105321f54
+    references:
+
+    section: __bun
+    text: "tool_result"
+  -
+    address: 0x105334f84
+    references:
+
+    section: __bun
+    text: tengu_chain_tool_result_recovered_by_call_id
+  -
+    address: 0x1053367b8
+    references:
+
+    section: __bun
+    text: tengu_unexpected_tool_result<
+  -
+    address: 0x1053367dc
+    references:
+
+    section: __bun
+    text: API Error: 400 orphaned tool_result in conversation history.
+  -
+    address: 0x105339930
+    references:
+
+    section: __bun
+    text: bash_code_execution_tool_result
+  -
+    address: 0x105339958
+    references:
+
+    section: __bun
+    text: code_execution_tool_result
+  -
+    address: 0x1053399ac
+    references:
+
+    section: __bun
+    text: text_editor_code_execution_tool_result
+  -
+    address: 0x1053399dc
+    references:
+
+    section: __bun
+    text: web_fetch_tool_result
+  -
+    address: 0x10533b42c
+    references:
+
+    section: __bun
+    text: tool_result_percent
+  -
+    address: 0x105347300
+    references:
+
+    section: __bun
+    text: terminal_tool_result
+  -
+    address: 0x105348868
+    references:
+
+    section: __bun
+    text: `tool_use` ids were found without `tool_result` blocks immediately after
+  -
+    address: 0x105357c1c
+    references:
+
+    section: __bun
+    text: found in advisor_tool_result blocks
+  -
+    address: 0x105362be0
+    references:
+
+    section: __bun
+    text: unexpected_tool_result
+  -
+    address: 0x1053671d4
+    references:
+
+    section: __bun
+    text: user_tool_result
+  -
+    address: 0x105367670
+    references:
+
+    section: __bun
+    text: Document page number of the first extracted page (1 when no range was requested); labels the page images in the model-facing tool_result
+  -
+    address: 0x105367854
+    references:
+
+    section: __bun
+    text: Extracted page images, in page order. Present only transiently in-process: the page image bytes are delivered solely as image blocks in the model-facing tool_result content and are not retained on the tool_use_result, so this key is absent on the emitted/persisted result
+  -
+    address: 0x105367988
+    references:
+
+    section: __bun
+    text: Set when the dedup matched a startup-seeded entry (CLAUDE.md / nested memory) rather than a prior Read tool_result
+  -
+    address: 0x105367d8c
+    references:
+
+    section: __bun
+    text: ensureToolResultPairing: tool_use/tool_result pairing mismatch detected (strict mode). 
+  -
+    address: 0x105367ec4
+    references:
+
+    section: __bun
+    text: tengu_tool_result_pairing_repaired
+  -
+    address: 0x105367ef0
+    references:
+
+    section: __bun
+    text: ensureToolResultPairing: repaired missing tool_result blocks (
+total: 55
+
+===== PATTERN: ToolSearch =====
+19 strings match "ToolSearch".
+[ev_96ed44112d6263e2ab83c2749a3ba1a7a4dcc1d4e56da11cabb4add9f9197b5e; observed]
+matches:
+  -
+    address: 0x104d302b4
+    references:
+
+    section: __bun
+    text: getHostManagedToolSearchEnv
+  -
+    address: 0x104d40500
+    references:
+
+    section: __bun
+    text: isToolSearchEnabled
+  -
+    address: 0x104d4051c
+    references:
+
+    section: __bun
+    text: isToolSearchPrecluded
+  -
+    address: 0x104d4053c
+    references:
+
+    section: __bun
+    text: isToolSearchToolAvailable
+  -
+    address: 0x104d40560
+    references:
+
+    section: __bun
+    text: toolSearchToolFilteredOut
+  -
+    address: 0x104d41d7c
+    references:
+
+    section: __bun
+    text: ToolSearchDescriptionCache
+  -
+    address: 0x104d41da0
+    references:
+
+    section: __bun
+    text: boundToolSearchQuery
+  -
+    address: 0x1050f2598
+    references:
+
+    section: __bun
+    text: . For browser interaction, use the Claude-in-Chrome MCP (tools named `mcp__claude-in-chrome__*`; load via ToolSearch if deferred).
+  -
+    address: 0x1050f83f0
+    references:
+
+    section: __bun
+    text:  Use the Claude-in-Chrome MCP for browser interaction (tools named `mcp__claude-in-chrome__*`; load via ToolSearch if deferred).V
+  -
+    address: 0x10514267c
+    references:
+
+    section: __bun
+    text: toolSearchEnabled
+  -
+    address: 0x1051bfdb8
+    references:
+
+    section: __bun
+    text: Cannot destructure property 'ToolSearchDescriptionCache' from null or undefined value
+  -
+    address: 0x1051c6b88
+    references:
+
+    section: __bun
+    text:  (deferred tool): use only for sustained user abuse directed at the assistant, or when the user explicitly asks to see it demonstrated. Load the full guidance via ToolSearch("select:
+  -
+    address: 0x1052a44dc
+    references:
+
+    section: __bun
+    text: tools:ToolSearch
+  -
+    address: 0x1052a8bbc
+    references:
+
+    section: __bun
+    text: ToolSearch
+  -
+    address: 0x1052efec0
+    references:
+
+    section: __bun
+    text: toolSearchAbsent
+  -
+    address: 0x105390438
+    references:
+
+    section: __bun
+    text: turnsSinceLastToolSearch6
+  -
+    address: 0x1053bcb08
+    references:
+
+    section: __bun
+    text: Tool search disabled: ToolSearchTool is not available (may have been disallowed via disallowedTools).
+  -
+    address: 0x1053bcb8c
+    references:
+
+    section: __bun
+    text: Auto tool search enabled: this conversation already declared ToolSearch
+  -
+    address: 0x1053d3bf0
+    references:
+
+    section: __bun
+    text: useToolSearch
+total: 19
+
+===== PATTERN: mcp__ =====
+37 strings match "mcp__".
+[ev_5c98e9addcc2f97eb9e16f273d148dad43f9e7246840d4e4076d732600971623; observed]
+matches:
+  -
+    address: 0x104ddb0a0
+    references:
+
+    section: __bun
+    text: mcp__
+  -
+    address: 0x104e5fff4
+    references:
+
+    section: __bun
+    text: Its own MCP tools (mcp__
+  -
+    address: 0x104f8846c
+    references:
+
+    section: __bun
+    text: ^mcp__[\w-]+(?:__(?:[\w.-]+|\*))?$
+  -
+    address: 0x104f8dbd4
+    references:
+
+    section: __bun
+    text: " was not loaded: its tool names would start with mcp__
+  -
+    address: 0x104f8e1dc
+    references:
+
+    section: __bun
+    text: : a * in a claude.ai connector's name blocks no connector in a cloud session; start a new session with one rule for each connector, such as mcp__claude_ai_Slack or mcp__claude_ai_Slack__<tool>e
+  -
+    address: 0x105056fc0
+    references:
+
+    section: __bun
+    text:  and manage browser tools with /chrome. Continue the task without browser tools (WebFetch and WebSearch cover read-only web content), or ask the user to perform browser steps manually. Do not attempt mcp__claude-in-chrome__* tool calls.
+  -
+    address: 0x105057628
+    references:
+
+    section: __bun
+    text: Claude in Chrome is enabled for this session, but the browser connection is not working (it failed or was disabled), so mcp__claude-in-chrome__* tools are not available. Do not attempt them. Continue the task without browser tools (WebFetch and WebSearch cover read-only web content), or ask the user to perform browser steps manually. The user can restart the connection with /chrome (Reconnect extension), or turn Claude in Chrome back on in /mcp if it was turned off there.
+  -
+    address: 0x10505c1d8
+    references:
+
+    section: __bun
+    text: 
+
+## Posting to GitHub (--comment)
+
+The `--comment` flag was passed. After producing the findings list, if the
+review target is a GitHub PR, post each finding as an inline PR comment via
+`mcp__github_inline_comment__create_inline_comment` (one call per finding;
+include a suggestion block only when it fully fixes the issue). If that tool
+is not available in this session, fall back to `gh api` (repos/{owner}/{repo}/pulls/{pr}/comments)
+or print the findings instead. If the target is not a PR, print the findings
+to the terminal and note that `--comment` was ignored.
+
+  -
+    address: 0x105086830
+    references:
+
+    section: __bun
+    text: Claude in Chrome setup completed: the extension is installed and connected, and the mcp__claude-in-chrome__* browser tools are now available in this session. Continue the user's task using them.
+
+
+  -
+    address: 0x105086f04
+    references:
+
+    section: __bun
+    text: In this session the Claude app has connected the user's claude.ai connectors under opaque ids: their tools appear in your tool list as `mcp__<id>__<toolName>`.
+  -
+    address: 0x105086fac
+    references:
+
+    section: __bun
+    text: In this session, claude.ai connector tools appear in your tool list as `mcp__<connector>__<toolName>`. Set `server` to the connector's display name as it appears in claude.ai (usually the `<connector>` segment with underscores read as spaces).
+  -
+    address: 0x10508744c
+    references:
+
+    section: __bun
+    text:  The `mcp__
+  -
+    address: 0x105087cf4
+    references:
+
+    section: __bun
+    text:  The `mcp__<id>__` connectors above are claude.ai connectors, never host servers.
+  -
+    address: 0x10508f8ec
+    references:
+
+    section: __bun
+    text:  The Claude app has also connected claude.ai connectors under opaque ids (tools `mcp__<id>__<toolName>`).
+  -
+    address: 0x105090abc
+    references:
+
+    section: __bun
+    text: When the user wants to interact with web pages, automate browser tasks, capture screenshots, read console logs, or perform any browser-based actions. Always invoke BEFORE attempting to use any mcp__claude-in-chrome__* tools.
+  -
+    address: 0x10509a5ec
+    references:
+
+    section: __bun
+    text: The Claude in Chrome extension is installed, but browser tools are not enabled for this session. Tell the user Claude Code can work in their Chrome browser once browser tools are on: they can run /chrome to manage them, or restart Claude Code to get a one-time prompt to enable them. Do not attempt mcp__claude-in-chrome__* tool calls this session.q
+  -
+    address: 0x1050f2598
+    references:
+
+    section: __bun
+    text: . For browser interaction, use the Claude-in-Chrome MCP (tools named `mcp__claude-in-chrome__*`; load via ToolSearch if deferred).
+  -
+    address: 0x1050f83f0
+    references:
+
+    section: __bun
+    text:  Use the Claude-in-Chrome MCP for browser interaction (tools named `mcp__claude-in-chrome__*`; load via ToolSearch if deferred).V
+  -
+    address: 0x1051378e8
+    references:
+
+    section: __bun
+    text: mcp__*
+  -
+    address: 0x105137a9c
+    references:
+
+    section: __bun
+    text: ^mcp__
+  -
+    address: 0x105137b3c
+    references:
+
+    section: __bun
+    text: server. Use 'mcp__<server>' to deny one server's tools ('mcp__<server>__<tool>' for one tool), or 'mcp__*' to deny every MCP server's tools. Refusing the spawn rather than running it un-narrowed.
+  -
+    address: 0x105137d28
+    references:
+
+    section: __bun
+    text: 'mcp__*' for every MCP server's tools. Refusing the spawn rather than running it un-narrowed.
+  -
+    address: 0x105137ed0
+    references:
+
+    section: __bun
+    text: Enumerate exact tool names, or use 'mcp__*' to deny every MCP server's tools. 
+  -
+    address: 0x10513809c
+    references:
+
+    section: __bun
+    text: Enumerate the tools to deny (e.g. ['Bash', 'Write']), or use 'mcp__*' to deny every MCP server's tools. C
+  -
+    address: 0x1051384d4
+    references:
+
+    section: __bun
+    text: must match the normalized server spelling exactly, mcp__ prefix and case included. Refusing the spawn rather than running it with this deny silently dropped.
+  -
+    address: 0x10519fd10
+    references:
+
+    section: __bun
+    text: mcp__*__*
+  -
+    address: 0x1051a1210
+    references:
+
+    section: __bun
+    text: ^mcp__[A-Za-z0-9_-]+__[A-Za-z0-9_-]+$
+  -
+    address: 0x1051bc5d8
+    references:
+
+    section: __bun
+    text: which is not of the form mcp__<server>__<tool>
+  -
+    address: 0x1052617e8
+    references:
+
+    section: __bun
+    text: set `server` to the segment between `mcp__` and the next `__` of a tool name from this session (for `mcp__claude_ai_Slack_beta__search`, use `claude_ai_Slack_beta`, copied exactly), or to the connector's exact display name
+  -
+    address: 0x1052619c0
+    references:
+
+    section: __bun
+    text: pages as host servers; declare only servers from the MCP configuration (host:<name> for the `mcp__<name>__<tool>` tools of a server you configured). The control plane would accept this manifest, but the page would break at view time
+  -
+    address: 0x1052a8bd0
+    references:
+
+    section: __bun
+    text: mcp__slack__send_message(
+  -
+    address: 0x1052a8bf0
+    references:
+
+    section: __bun
+    text: mcp__claude_ai_Slack__slack_send_message
+  -
+    address: 0x1052a9dd8
+    references:
+
+    section: __bun
+    text: "name":"mcp__([^"]+?)__([^"]+)"
+  -
+    address: 0x1052bff7c
+    references:
+
+    section: __bun
+    text: mcp__claude-for-chrome__
+  -
+    address: 0x105391f28
+    references:
+
+    section: __bun
+    text:  (Calls to claude-device's chrome_* tools are shown as mcp__claude-in-chrome__*.)
+  -
+    address: 0x105395b74
+    references:
+
+    section: __bun
+    text: ^mcp__(.+?)__
+  -
+    address: 0x1053db538
+    references:
+
+    section: __bun
+    text: "name":"mcp__
+total: 37
+
+===== PATTERN: PreToolUse =====
+32 strings match "PreToolUse".
+[ev_119f95cd998a1c681d4198a188a7ba2ae3b3ff3cba86ac30a87c53edf8cdf42f; observed]
+matches:
+  -
+    address: 0x104d38484
+    references:
+
+    section: __bun
+    text: preToolUseMatcherCoversTool
+  -
+    address: 0x104d384a8
+    references:
+
+    section: __bun
+    text: preToolUseMatcherListedTools
+  -
+    address: 0x104d38b60
+    references:
+
+    section: __bun
+    text: preToolUseHookMayCoverArtifact
+  -
+    address: 0x104e373a0
+    references:
+
+    section: __bun
+    text: PreToolUse
+  -
+    address: 0x104eb3438
+    references:
+
+    section: __bun
+    text: PreToolUse 
+  -
+    address: 0x104eb3760
+    references:
+
+    section: __bun
+    text:  PreToolUse
+  -
+    address: 0x104ecfddc
+    references:
+
+    section: __bun
+    text: Input to command is JSON with from_model, to_model, requested_model, source, context_tokens and the estimated re-cache cost.
+Exit code 0 - switch proceeds; JSON permissionDecision allow/deny/ask as for PreToolUse
+Exit code 2 - block the switch and show stderr to user
+Other exit codes - show stderr to user only and continue+
+  -
+    address: 0x104f62988
+    references:
+
+    section: __bun
+    text: served permission step ran with no call record: a PreToolUse hook's refusal or question cannot be held
+  -
+    address: 0x104f629f8
+    references:
+
+    section: __bun
+    text: ] refused by a PreToolUse hook here; 
+  -
+    address: 0x104f62a4c
+    references:
+
+    section: __bun
+    text: ] asked about by a PreToolUse hook here; allow after it raised back to that question tool=
+  -
+    address: 0x104f62b9c
+    references:
+
+    section: __bun
+    text: PreToolUse hook on 
+  -
+    address: 0x104fc94c8
+    references:
+
+    section: __bun
+    text: PreToolUse:
+  -
+    address: 0x10500c6b0
+    references:
+
+    section: __bun
+    text: PreToolUse hook for file edits
+  -
+    address: 0x1050654c8
+    references:
+
+    section: __bun
+    text: ## Hooks Configuration
+
+Hooks run commands at specific points in Claude Code's lifecycle.
+
+### Hook Structure
+```json
+{
+  "hooks": {
+    "EVENT_NAME": [
+      {
+        "matcher": "ToolName|OtherTool",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "your-command-here",
+            "timeout": 60,
+            "statusMessage": "Running..."
+          }
+        ]
+      }
+    ]
+  }
+}
+```
+
+### Hook Events
+
+| Event | Matcher | Purpose |
+|-------|---------|---------|
+| PermissionRequest | Tool name | Run before permission prompt |
+| PreToolUse | Tool name | Run before tool, can block |
+| PostToolUse | Tool name | Run after successful tool |
+| PostToolUseFailure | Tool name | Run after tool fails |
+| Notification | Notification type | Run on notifications |
+| Stop | - | Run when Claude stops (including clear, resume, compact) |
+| PreCompact | "manual"/"auto" | Before compaction |
+| PostCompact | "manual"/"auto" | After compaction (receives summary) |
+| UserPromptSubmit | - | When user submits |
+| SessionStart | - | When session starts |
+
+**Common tool matchers:** `Bash`, `Write`, `Edit`, `Read`, `Glob`, `Grep`
+
+### Hook Types
+
+**1. Command Hook** - Runs a shell command:
+```json
+{ "type": "command", "command": "prettier --write $FILE", "timeout": 30 }
+```
+
+**2. Prompt Hook** - Evaluates a condition with LLM:
+```json
+{ "type": "prompt", "prompt": "Is this safe? $ARGUMENTS" }
+```
+Only available for tool events: PreToolUse, PostToolUse, PermissionRequest.
+
+**3. Agent Hook** - Runs an agent with tools:
+```json
+{ "type": "agent", "prompt": "Verify tests pass: $ARGUMENTS" }
+```
+Only available for tool events: PreToolUse, PostToolUse, PermissionRequest.
+
+### Hook Input (stdin JSON)
+```json
+{
+  "session_id": "abc123",
+  "tool_name": "Write",
+  "tool_input": { "file_path": "/path/to/file.txt", "content": "..." },
+  "tool_response": { "success": true }  // PostToolUse only
+}
+```
+
+### Hook JSON Output
+
+Hooks can return JSON to control behavior:
+
+```json
+{
+  "systemMessage": "Warning shown to user in UI",
+  "continue": false,
+  "stopReason": "Message shown when blocking",
+  "suppressOutput": false,
+  "decision": "block",
+  "reason": "Explanation for decision",
+  "hookSpecificOutput": {
+    "hookEventName": "PostToolUse",
+    "additionalContext": "Context injected back to model"
+  }
+}
+```
+
+**Fields:**
+- `systemMessage` - Display a message to the user (all hooks)
+- `continue` - Set to `false` to block/stop (default: true)
+- `stopReason` - Message shown when `continue` is false
+- `suppressOutput` - Hide stdout from transcript (default: false)
+- `decision` - "block" for PostToolUse/Stop/UserPromptSubmit hooks (deprecated for PreToolUse, use hookSpecificOutput.permissionDecision instead)
+- `reason` - Explanation for decision
+- `hookSpecificOutput` - Event-specific output (must include `hookEventName`):
+  - `additionalContext` - Text injected into model context
+  - `permissionDecision` - "allow", "deny", or "ask" (PreToolUse only)
+  - `permissionDecisionReason` - Reason for the permission decision (PreToolUse only)
+  - `updatedInput` - Modified tool input (PreToolUse only)
+
+### Common Patterns
+
+**Auto-format after writes:**
+```json
+{
+  "hooks": {
+    "PostToolUse": [{
+      "matcher": "Write|Edit",
+      "hooks": [{
+        "type": "command",
+        "command": "jq -r '.tool_response.filePath // .tool_input.file_path' | { read -r f; prettier --write \"$f\"; } 2>/dev/null || true"
+      }]
+    }]
+  }
+}
+```
+
+**Log all bash commands:**
+```json
+{
+  "hooks": {
+    "PreToolUse": [{
+      "matcher": "Bash",
+      "hooks": [{
+        "type": "command",
+        "command": "jq -r '.tool_input.command' >> ~/.claude/bash-log.txt"
+      }]
+    }]
+  }
+}
+```
+
+**Stop hook that displays message to user:**
+
+Command must output JSON with `systemMessage` field:
+```bash
+# Example command that outputs: {"systemMessage": "Session complete!"}
+echo '{"systemMessage": "Session complete!"}'
+```
+
+**Run tests after code changes:**
+```json
+{
+  "hooks": {
+    "PostToolUse": [{
+      "matcher": "Write|Edit",
+      "hooks": [{
+        "type": "
+  -
+    address: 0x105172080
+    references:
+
+    section: __bun
+    text: preToolUse
+  -
+    address: 0x1051a21cc
+    references:
+
+    section: __bun
+    text: ) through PreToolUse
+  -
+    address: 0x1051d5344
+    references:
+
+    section: __bun
+    text: sessionPreToolUse
+  -
+    address: 0x1051d5a48
+    references:
+
+    section: __bun
+    text: preToolUseHookActiveHere
+  -
+    address: 0x10521e028
+    references:
+
+    section: __bun
+    text: classic.PreToolUse
+  -
+    address: 0x10529ebb0
+    references:
+
+    section: __bun
+    text: A PreToolUse hook on this machine exited with an error (whatever its cause) for a command your cloud session sent here and, as for a local command, did not block it. Note that hooks for such calls start in your home directory with a reduced environment: a guard that inspects the project must use $CLAUDE_PROJECT_DIR or the cwd field on stdin.
+  -
+    address: 0x1052c9730
+    references:
+
+    section: __bun
+    text: PreToolUse hook did not respond before its timeout (host client may be unreachable). The tool call was not executed; other configured hooks may not have completed.
+  -
+    address: 0x1052c97dc
+    references:
+
+    section: __bun
+    text: PreToolUse hook failed with an unexpected error. The tool call was not executed; other configured hooks may not have completed.
+  -
+    address: 0x10531f490
+    references:
+
+    section: __bun
+    text: A PreToolUse hook (
+  -
+    address: 0x1053295d4
+    references:
+
+    section: __bun
+    text: : a hook changed this call's input after the model wrote it, so the review was of different input from what would run, and no other review of it was available. This is not a judgment that the action is unsafe. Issue the call again once, as this conversation records it; if it is denied again, the hook changes it each time, so do not issue it again: continue with other tasks that don't require it, and tell the user that a hook (a PreToolUse hook, or a mod's) rewrites the 
+  -
+    address: 0x10532fc20
+    references:
+
+    section: __bun
+    text:  (top-level decision is the legacy approve|block field; for "ask" use hookSpecificOutput.permissionDecision in a PreToolUse hook)
+  -
+    address: 0x10532fcf4
+    references:
+
+    section: __bun
+    text: " use hookSpecificOutput.permissionDecision in a PreToolUse hook, or hookSpecificOutput.decision: {"behavior": "
+  -
+    address: 0x105348190
+    references:
+
+    section: __bun
+    text: "PreToolUse"-
+  -
+    address: 0x105348358
+    references:
+
+    section: __bun
+    text: for PreToolUse
+  -
+    address: 0x1053522dc
+    references:
+
+    section: __bun
+    text: PreToolUse/PermissionRequest hooks are declared at the 
+  -
+    address: 0x105352630
+    references:
+
+    section: __bun
+    text: a PreToolUse 
+  -
+    address: 0x1053653b4
+    references:
+
+    section: __bun
+    text: PreToolUse permissionDisplay ignored: its text holds a character a permission card could not show as written
+  -
+    address: 0x1053dbf40
+    references:
+
+    section: __bun
+    text: preToolUseHook
+total: 32
+
+===== PATTERN: allowedTools =====
+26 strings match "allowedTools".
+[ev_0300d3106fcf500882655524c6c83deb6f4a930b30eb72da37f2349a168b0cb4; observed]
+matches:
+  -
+    address: 0x104d78330
+    references:
+
+    section: __bun
+    text: --allowedTools, --allowed-tools <tools...>
+  -
+    address: 0x104d786b8
+    references:
+
+    section: __bun
+    text: --disallowedTools, --disallowed-tools <tools...>M
+  -
+    address: 0x104d7d700
+    references:
+
+    section: __bun
+    text: allowedTools
+  -
+    address: 0x104d7de3c
+    references:
+
+    section: __bun
+    text: disallowedTools
+  -
+    address: 0x104d93f74
+    references:
+
+    section: __bun
+    text: turnDisallowedTools
+  -
+    address: 0x104f3d7dc
+    references:
+
+    section: __bun
+    text: --allowedTools=
+  -
+    address: 0x104f8f588
+    references:
+
+    section: __bun
+    text: numAllowedTools
+  -
+    address: 0x104f8f5a0
+    references:
+
+    section: __bun
+    text: numDisallowedTools
+  -
+    address: 0x104f9060c
+    references:
+
+    section: __bun
+    text: Cannot destructure property 'disallowedTools' from null or undefined value
+  -
+    address: 0x104f92054
+    references:
+
+    section: __bun
+    text: allowedToolsCli
+  -
+    address: 0x104f9206c
+    references:
+
+    section: __bun
+    text: disallowedToolsCli
+  -
+    address: 0x105085b24
+    references:
+
+    section: __bun
+    text: getAllowedTools
+  -
+    address: 0x1051378f8
+    references:
+
+    section: __bun
+    text: agent() opts.disallowedTools entry '
+  -
+    address: 0x1051381b4
+    references:
+
+    section: __bun
+    text: workflow agent(): disallowedTools mcp entry '
+  -
+    address: 0x105138694
+    references:
+
+    section: __bun
+    text: workflow agent(): disallowedTools entry '
+  -
+    address: 0x105138b4c
+    references:
+
+    section: __bun
+    text:  (removed by this spawn's disallowedTools, the agent definition's denies, or absent from the session pool). A clamp on a Bash-less agent 
+  -
+    address: 0x105139b0c
+    references:
+
+    section: __bun
+    text: agent() opts.disallowedTools must be an array of non-empty tool-name strings (e.g. ['Bash', 'Write']); got 
+  -
+    address: 0x10519ffe0
+    references:
+
+    section: __bun
+    text: disallowedToolSet
+  -
+    address: 0x10519fffc
+    references:
+
+    section: __bun
+    text: bareDisallowedToolSet
+  -
+    address: 0x1051a0394
+    references:
+
+    section: __bun
+    text: Cannot destructure property 'disallowedToolSet' from null or undefined value
+  -
+    address: 0x1051bbab0
+    references:
+
+    section: __bun
+    text: (allowed_non_write_users hardening). Declare allowedTools explicitly, or set CLAUDE_CODE_SUBPROCESS_ENV_SCRUB=0 to opt out.
+  -
+    address: 0x1051bbd48
+    references:
+
+    section: __bun
+    text: Cannot destructure property 'allowedToolsCli' from null or undefined value
+  -
+    address: 0x1051bcbb4
+    references:
+
+    section: __bun
+    text: Ignoring --allowedTools X
+  -
+    address: 0x1051bcfb0
+    references:
+
+    section: __bun
+    text: Ignoring --allowedTools rule "
+  -
+    address: 0x1052c8348
+    references:
+
+    section: __bun
+    text: allowedtools	
+  -
+    address: 0x1053bcb08
+    references:
+
+    section: __bun
+    text: Tool search disabled: ToolSearchTool is not available (may have been disallowed via disallowedTools).
+total: 26
+
+===== PATTERN: tools/call =====
+4 strings match "tools/call".
+[ev_5f87df6097afa18a2bb03a6d0bb106758668919765df706f3779930ef2e43679; observed]
+matches:
+  -
+    address: 0x105117920
+    references:
+
+    section: __bun
+    text: tools/call
+  -
+    address: 0x10517b144
+    references:
+
+    section: __bun
+    text: Invalid tools/call request: 
+  -
+    address: 0x10517b190
+    references:
+
+    section: __bun
+    text: Invalid tools/call result: 
+  -
+    address: 0x10517b3dc
+    references:
+
+    section: __bun
+    text:  does not support task creation for tools/call (required for 
+total: 4
+
+===== PATTERN: input_schema =====
+4 strings match "input_schema".
+[ev_5502cfc3ebcb1da42f09c35bee52d1e01038c89907888cbc774df7268e8dc20e; observed]
+matches:
+  -
+    address: 0x104dabbe8
+    references:
+
+    section: __bun
+    text: input_schema
+  -
+    address: 0x10510dcdc
+    references:
+
+    section: __bun
+    text: input_schema_not_checked
+  -
+    address: 0x105362b10
+    references:
+
+    section: __bun
+    text: \btools\.\d+\.(?:custom\.)?input_schema\b
+  -
+    address: 0x10539d9d0
+    references:
+
+    section: __bun
+    text: \btools\.(\d+)\.(?:custom\.)?input_schema\b
+total: 4
+
+===== PATTERN: stop_reason =====
+6 strings match "stop_reason".
+[ev_3b364e18f7b774639e0ecc6bcf7f2aeece28912568421bc4959e2b04e7477248; observed]
+matches:
+  -
+    address: 0x104d2ef08
+    references:
+
+    section: __bun
+    text: AUTO_MODE_UNAVAILABLE_STOP_REASON
+  -
+    address: 0x104e1d35c
+    references:
+
+    section: __bun
+    text: stop_reason
+  -
+    address: 0x104f59a08
+    references:
+
+    section: __bun
+    text: final_stop_reason
+  -
+    address: 0x105138fa8
+    references:
+
+    section: __bun
+    text: ] throttled response (no stop_reason, 
+  -
+    address: 0x10519f268
+    references:
+
+    section: __bun
+    text:  stop_reason=
+  -
+    address: 0x10537efb4
+    references:
+
+    section: __bun
+    text: last_reply_stop_reason
+total: 6
+
+===== PATTERN: server_tool_use =====
+1 strings match "server_tool_use".
+[ev_a8c629fc07d053ab91f7805725d2914c0ca934162fd88ff343e70ec9cf63066b; observed]
+matches:
+  -
+    address: 0x104e275dc
+    references:
+
+    section: __bun
+    text: server_tool_use
+total: 1
+
