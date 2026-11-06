@@ -1,0 +1,512 @@
+===== "name":"Bash" =====
+0 strings match ""name":"Bash"".
+[ev_c984163206b5494a69ba3295ba3797d8527748e0c47e7b764d504bb2b9286315; observed]
+matches:
+
+total: 0
+
+===== "name":"Read" =====
+0 strings match ""name":"Read"".
+[ev_f7b7090b32343908bd804c0c5fc5cccca4c9915b8d6043e6c630c5127ade9f1d; observed]
+matches:
+
+total: 0
+
+===== "name":"Write" =====
+0 strings match ""name":"Write"".
+[ev_c15294bd5e47dfeaa8f8e1ff5d00e70b6e5c2057c88e3322db23fe98982758bc; observed]
+matches:
+
+total: 0
+
+===== "name":"Edit" =====
+0 strings match ""name":"Edit"".
+[ev_71732861630cd3494e5d7333d000309c3e7552cd59ebd45aaf7545ef1c3aebdc; observed]
+matches:
+
+total: 0
+
+===== ToolSearchTool =====
+2 strings match "ToolSearchTool".
+[ev_c63131e9e34a3a1f0f5e9de4688c12c35d7f74b151b1e11dc99692fdfcc0a4c5; observed]
+matches:
+  -
+    address: 0x104d4053c
+    references:
+
+    section: __bun
+    text: isToolSearchToolAvailable
+  -
+    address: 0x1053bcb08
+    references:
+
+    section: __bun
+    text: Tool search disabled: ToolSearchTool is not available (may have been disallowed via disallowedTools).
+total: 2
+
+===== ensureToolResultPairing =====
+2 strings match "ensureToolResultPairing".
+[ev_9e5944dbe9beb842dfc248b6b4dbdf12f2d7be96ef8e5f9bb9b247d350be03c3; observed]
+matches:
+  -
+    address: 0x105367d8c
+    references:
+
+    section: __bun
+    text: ensureToolResultPairing: tool_use/tool_result pairing mismatch detected (strict mode). 
+  -
+    address: 0x105367ef0
+    references:
+
+    section: __bun
+    text: ensureToolResultPairing: repaired missing tool_result blocks (
+total: 2
+
+===== PreToolUse =====
+26 strings match "PreToolUse".
+[ev_369c738271c16c338d975afc075e25c85aada5992270325f50489b3414556bfa; observed]
+matches:
+  -
+    address: 0x104e373a0
+    references:
+
+    section: __bun
+    text: PreToolUse
+  -
+    address: 0x104eb3438
+    references:
+
+    section: __bun
+    text: PreToolUse 
+  -
+    address: 0x104eb3760
+    references:
+
+    section: __bun
+    text:  PreToolUse
+  -
+    address: 0x104ecfddc
+    references:
+
+    section: __bun
+    text: Input to command is JSON with from_model, to_model, requested_model, source, context_tokens and the estimated re-cache cost.
+Exit code 0 - switch proceeds; JSON permissionDecision allow/deny/ask as for PreToolUse
+Exit code 2 - block the switch and show stderr to user
+Other exit codes - show stderr to user only and continue+
+  -
+    address: 0x104f62988
+    references:
+
+    section: __bun
+    text: served permission step ran with no call record: a PreToolUse hook's refusal or question cannot be held
+  -
+    address: 0x104f629f8
+    references:
+
+
+===== PostToolUse =====
+14 strings match "PostToolUse".
+[ev_7f6700ae8ba5eb148b607bb9be626546ffa2a7bd12cb39015b5c526ce64fcf57; observed]
+matches:
+  -
+    address: 0x104d37fa8
+    references:
+
+    section: __bun
+    text: executePostToolUseFailureHooks
+  -
+    address: 0x104e970c4
+    references:
+
+    section: __bun
+    text: PostToolUse
+  -
+    address: 0x104e970d8
+    references:
+
+    section: __bun
+    text: PostToolUseFailure
+  -
+    address: 0x104faafc4
+    references:
+
+    section: __bun
+    text: Page text. PostToolUse hooks get it; tool_use_result does not.
+  -
+    address: 0x1050654c8
+    references:
+
+    section: __bun
+    text: ## Hooks Configuration
+
+Hooks run commands at specific points in Claude Code's lifecycle.
+
+### Hook Structure
+```json
+{
+  "hooks": {
+
+===== PermissionRequest =====
+41 strings match "PermissionRequest".
+[ev_4c13bfe07ccf3154d129a2aac158abfcb3a4d420b7fb09116de53f099319419f; observed]
+matches:
+  -
+    address: 0x104d22e0c
+    references:
+
+    section: __bun
+    text: bringsToolHostPermissionRequest
+  -
+    address: 0x104d231d8
+    references:
+
+    section: __bun
+    text: handleToolHostPermissionRequest
+  -
+    address: 0x104d33240
+    references:
+
+    section: __bun
+    text: consultPermissionRequestHooksForUnpromptableAsk
+  -
+    address: 0x104d3329c
+    references:
+
+    section: __bun
+    text: createPermissionRequestMessage
+  -
+    address: 0x104d37f20
+    references:
+
+    section: __bun
+    text: executePermissionRequestHooks
+  -
+    address: 0x104d46238
+    references:
+
+    section: __bun
+    text: ApprovedPermissionRequestSchema
+  -
+
+===== mcp__ =====
+37 strings match "mcp__".
+[ev_5347184241915c967e435369d52587aa1a2d199263521c9f18c41b448e1a679f; observed]
+matches:
+  -
+    address: 0x104ddb0a0
+    references:
+
+    section: __bun
+    text: mcp__
+  -
+    address: 0x104e5fff4
+    references:
+
+    section: __bun
+    text: Its own MCP tools (mcp__
+  -
+    address: 0x104f8846c
+    references:
+
+    section: __bun
+    text: ^mcp__[\w-]+(?:__(?:[\w.-]+|\*))?$
+  -
+    address: 0x104f8dbd4
+    references:
+
+    section: __bun
+    text: " was not loaded: its tool names would start with mcp__
+  -
+    address: 0x104f8e1dc
+    references:
+
+    section: __bun
+    text: : a * in a claude.ai connector's name blocks no connector in a cloud session; start a new session with one rule for each connector, such as mcp__claude_ai_Slack or mcp__claude_ai_Slack__<tool>e
+  -
+    address: 0x105056fc0
+    references:
+
+    section: __bun
+    text:  and manage browser tools with /chrome. Continue the task without browser tools (WebFetch and WebSearch cover read-only web content), or ask the user to perform browser steps manually. Do not attempt mcp__claude-in-chrome__* tool calls.
+  -
+
+===== tools/list =====
+13 strings match "tools/list".
+[ev_a337586fe2e85392c6e14a0963c4e15a6702de65a642d0f45aa18f2902af49f3; observed]
+matches:
+  -
+    address: 0x104d8f9d8
+    references:
+
+    section: __bun
+    text: mcp serve: tools/list_changed not sent: 2
+  -
+    address: 0x104e1c304
+    references:
+
+    section: __bun
+    text: Received tools/list_changed notification, refreshing tools
+  -
+    address: 0x104e1c358
+    references:
+
+    section: __bun
+    text: : tools/list_changed refresh failed (
+  -
+    address: 0x104e1e284
+    references:
+
+    section: __bun
+    text: : adoption tools/list failed (
+  -
+    address: 0x104e548f8
+    references:
+
+    section: __bun
+    text: Refreshing tools for a tools/list_changed notification received before this handler was registered
+  -
+    address: 0x104ecae34
+    references:
+
+    section: __bun
+    text: mcp reconnect tools/list failed for A
+  -
+
+===== tools/call =====
+4 strings match "tools/call".
+[ev_e25e7913c2672aa1ef48a53c2b563c22506d66f19f8a66dc3a905c39bf003e73; observed]
+matches:
+  -
+    address: 0x105117920
+    references:
+
+    section: __bun
+    text: tools/call
+  -
+    address: 0x10517b144
+    references:
+
+    section: __bun
+    text: Invalid tools/call request: 
+  -
+    address: 0x10517b190
+    references:
+
+    section: __bun
+    text: Invalid tools/call result: 
+  -
+    address: 0x10517b3dc
+    references:
+
+    section: __bun
+    text:  does not support task creation for tools/call (required for 
+total: 4
+
+===== tool_choice =====
+1 strings match "tool_choice".
+[ev_5d377498c6189964c9cea504194a197c9ecd6f1e881d26edbb98fabb1e45dbf9; observed]
+matches:
+  -
+    address: 0x104e2b2d8
+    references:
+
+    section: __bun
+    text: tool_choice
+total: 1
+
+===== defer_loading =====
+1 strings match "defer_loading".
+[ev_f161937a9c8108319517484c0989bc9a45bb62f8b49ce08071cd4f8ce21e8ff6; observed]
+matches:
+  -
+    address: 0x10533c960
+    references:
+
+    section: __bun
+    text: defer_loading
+total: 1
+
+===== stop_reason =====
+5 strings match "stop_reason".
+[ev_4509b393667e530f95b88a680280516cb7017976abdce8ed53ea7b85ff0cad21; observed]
+matches:
+  -
+    address: 0x104e1d35c
+    references:
+
+    section: __bun
+    text: stop_reason
+  -
+    address: 0x104f59a08
+    references:
+
+    section: __bun
+    text: final_stop_reason
+  -
+    address: 0x105138fa8
+    references:
+
+    section: __bun
+    text: ] throttled response (no stop_reason, 
+  -
+    address: 0x10519f268
+    references:
+
+    section: __bun
+    text:  stop_reason=
+  -
+    address: 0x10537efb4
+    references:
+
+    section: __bun
+    text: last_reply_stop_reason
+total: 5
+
+===== tool_result =====
+52 strings match "tool_result".
+[ev_bd732339d833221374462613fb254e8bb8179ff3d634eada9aaddbc6dd8757e7; observed]
+matches:
+  -
+    address: 0x104ddaae8
+    references:
+
+    section: __bun
+    text: tool_result
+  -
+    address: 0x104e155f0
+    references:
+
+    section: __bun
+    text: tengu_remote_tool_result_rendered
+  -
+    address: 0x104e1fd40
+    references:
+
+    section: __bun
+    text: tool_result_meta
+  -
+    address: 0x104e20424
+    references:
+
+    section: __bun
+    text: tengu_refusal_retraction_orphan_tool_result
+  -
+    address: 0x104e3f4cc
+    references:
+
+    section: __bun
+    text: remote_tool_result_too_large
+  -
+    address: 0x104e40500
+    references:
+
+    section: __bun
+    text: _tool_result
+  -
+
+===== getToolUseIDs =====
+0 strings match "getToolUseIDs".
+[ev_6a6f339882055bebe7a83a56f59fc402a09252de0d44f2ba349f471f6e43d34e; observed]
+matches:
+
+total: 0
+
+===== findToolByName =====
+0 strings match "findToolByName".
+[ev_ce3c8ac653ed2daccfcc37485569bc8e1db5219182c0a206509803e9ca19a51a; observed]
+matches:
+
+total: 0
+
+===== TOOL_NAME_ =====
+0 strings match "TOOL_NAME_".
+[ev_80bde01f17e8e81fcccdfed91b69a58d94969ddb93a875d5517a978f1ff7ba7d; observed]
+matches:
+
+total: 0
+
+===== toolsMap =====
+0 strings match "toolsMap".
+[ev_267a27d13477bf76f12479c80b35f4dd02f2d66252c751e3033347244c430796; observed]
+matches:
+
+total: 0
+
+===== builtInTools =====
+1 strings match "builtInTools".
+[ev_eb4b12c7b82d13eab837ba6b9b9215ca503a845edbb793e0cd8a2498889e4254; observed]
+matches:
+  -
+    address: 0x104d93f38
+    references:
+
+    section: __bun
+    text: builtInToolsDisabled
+total: 1
+
+===== AgentTool =====
+7 strings match "AgentTool".
+[ev_e79d1c80834fbada37878c9f70306236d01cef2bc8db9b0dc5b932446acc7d05; observed]
+matches:
+  -
+    address: 0x104d2bfac
+    references:
+
+    section: __bun
+    text: renderGroupedAgentToolUse
+  -
+    address: 0x104d3344c
+    references:
+
+    section: __bun
+    text: isAgentToolPoolDenied
+  -
+    address: 0x104d5bf20
+    references:
+
+    section: __bun
+    text: betaAgentToolset20260401
+  -
+    address: 0x104de0aa0
+    references:
+
+    section: __bun
+    text: launchedByAgentTool
+  -
+    address: 0x1051a04b8
+    references:
+
+    section: __bun
+    text: declaredAgentToolWithheld
+  -
+    address: 0x1051a0cdc
+    references:
+
+    section: __bun
+    text: 
+Good: "Reading runAgent.ts"
+
+===== BashTool =====
+1 strings match "BashTool".
+[ev_e86bed401f5c0764ea82cea0317fe25f4b3ef6e0606c0b390f2df53943b6fad1; observed]
+matches:
+  -
+    address: 0x104d330cc
+    references:
+
+    section: __bun
+    text: BashTool
+total: 1
+
+===== FileReadTool =====
+1 strings match "FileReadTool".
+[ev_263e997084fcefc57f6cb31db2780def88e61802ca573e37f2a49008ca1f6a0a; observed]
+matches:
+  -
+    address: 0x104d33028
+    references:
+
+    section: __bun
+    text: FileReadTool
+total: 1
+
