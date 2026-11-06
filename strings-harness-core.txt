@@ -1,0 +1,151 @@
+===== getAllBaseTools =====
+    address: 0x104e10764
+    section: __bun
+    text: getAllBaseTools
+total: 1
+
+===== runToolUse =====
+    address: 0x1053be2d0
+    section: __bun
+    text: runToolUse error
+    address: 0x1053be3c8
+    section: __bun
+    text: runToolUse
+total: 2
+
+===== streamingToolExecutor =====
+    address: 0x104f50460
+    section: __bun
+    text: Cannot destructure property 'createStreamingToolExecutor' from null or undefined value
+    address: 0x104f504c0
+    section: __bun
+    text: createStreamingToolExecutor
+    address: 0x104f505c4
+    section: __bun
+    text: streamingToolExecutor
+    address: 0x104f505e4
+    section: __bun
+    text: rebuildStreamingToolExecutor
+total: 4
+
+===== ensureToolResultPairing =====
+    address: 0x105367d8c
+    section: __bun
+    text: ensureToolResultPairing: tool_use/tool_result pairing mismatch detected (strict mode). 
+    address: 0x105367ef0
+    section: __bun
+    text: ensureToolResultPairing: repaired missing tool_result blocks (
+total: 2
+
+===== toolDefinitions =====
+    address: 0x104f4ff08
+    section: __bun
+    text: toolDefinitions
+    address: 0x10532dcd0
+    section: __bun
+    text: inlineToolDefinitions
+total: 2
+
+===== isToolSearchToolAvailable =====
+    address: 0x104d4053c
+    section: __bun
+    text: isToolSearchToolAvailable
+total: 1
+
+===== permissionDecision =====
+    address: 0x104d477d8
+    section: __bun
+    text: readPermissionDecisionForPath
+    address: 0x104e37404
+    section: __bun
+    text: permissionDecision
+    address: 0x104e37420
+    section: __bun
+    text: permissionDecisionReason
+    address: 0x104ecfddc
+    section: __bun
+    text: Input to command is JSON with from_model, to_model, requested_model, source, context_tokens and the estimated re-cache cost.
+    address: 0x1050654c8
+    section: __bun
+    text: ## Hooks Configuration
+    address: 0x1052e89dc
+    section: __bun
+    text:  permissionDecision=allow ignored: 
+    address: 0x1053066e4
+    section: __bun
+    text: hookPermissionDecisionReason
+    address: 0x10532fc20
+    section: __bun
+    text:  (top-level decision is the legacy approve|block field; for "ask" use hookSpecificOutput.permissionDecision in a PreToolUse hook)
+    address: 0x10532fcf4
+    section: __bun
+    text: " use hookSpecificOutput.permissionDecision in a PreToolUse hook, or hookSpecificOutput.decision: {"behavior": "
+    address: 0x105343ec8
+    section: __bun
+    text: Unknown hook permissionDecision type: 
+    address: 0x105343f2c
+    section: __bun
+    text: hook output has an unknown permissionDecision type
+    address: 0x1053681c0
+    section: __bun
+    text: Cannot destructure property 'permissionDecision' from null or undefined value
+total: 12
+
+===== ToolHost =====
+    address: 0x104d22e0c
+    section: __bun
+    text: bringsToolHostPermissionRequest
+    address: 0x104d231d8
+    section: __bun
+    text: handleToolHostPermissionRequest
+    address: 0x104d2a7cc
+    section: __bun
+    text: createRemoteToolHostsRuntime
+    address: 0x104d2a7f0
+    section: __bun
+    text: registerToolHosts
+    address: 0x104d2de84
+    section: __bun
+    text: startForegroundToolHost
+    address: 0x104d2df84
+    section: __bun
+    text: buildToolHostWorkHandler
+    address: 0x104d2dfdc
+    section: __bun
+    text: liveToolHostChecks
+    address: 0x104d2dff8
+    section: __bun
+    text: liveToolHostSwitches
+    address: 0x104d2e014
+    section: __bun
+    text: sweepToolHostForShutdown
+    address: 0x104d2e034
+    section: __bun
+    text: toolHostVerdict
+    address: 0x104d2e04c
+    section: __bun
+    text: watchToolHostAdvert
+    address: 0x104d33214
+    section: __bun
+    text: checkRuleBasedPermissionsOnToolHost
+    address: 0x104d45ac0
+    section: __bun
+    text: signToolHostLink
+    address: 0x104d45ad8
+    section: __bun
+    text: signToolHostResume
+    address: 0x104d8faf4
+    section: __bun
+    text: Cannot destructure property 'bringsToolHostPermissionRequest' from null or undefined value
+    address: 0x104d8fbe8
+    section: __bun
+    text: Cannot destructure property 'handleToolHostPermissionRequest' from null or undefined value
+    address: 0x104d943a8
+    section: __bun
+
+===== executePreToolUseHooks =====
+total: 0
+
+===== executePostToolUseHooks =====
+total: 0
+
