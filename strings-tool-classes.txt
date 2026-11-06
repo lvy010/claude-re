@@ -1,0 +1,224 @@
+===== FileEditTool =====
+    address: 0x104e059ac
+    text: FileEditToolDiff: fs error computing diff for 
+    address: 0x104f3d0ac
+    text: FileEditTool
+total: 2
+
+===== FileWriteTool =====
+    address: 0x104f3d094
+    text: FileWriteTool
+total: 1
+
+===== GrepTool =====
+    address: 0x104f3d0d0
+    text: GrepTool
+total: 1
+
+===== GlobTool =====
+    address: 0x104f3d0c0
+    text: GlobTool
+total: 1
+
+===== WebFetchTool =====
+    address: 0x104d2a3dc
+    text: WebFetchTool
+total: 1
+
+===== WebSearchTool =====
+    address: 0x104fadf48
+    text: WebSearchTool requires permission.
+total: 1
+
+===== NotebookEditTool =====
+    address: 0x104f3d0e0
+    text: NotebookEditTool
+total: 1
+
+===== SkillTool =====
+    address: 0x104d36a80
+    text: getSkillToolCommands
+    address: 0x104d47d8c
+    text: isPluginSkillToolAdvertised
+    address: 0x104d47db0
+    text: isPluginSkillToolEnabled
+    address: 0x10503ae18
+    text: aliasSkillToolNames
+    address: 0x1050477bc
+    text: SkillTool eliding byte-identical re-invocation of skill 
+    address: 0x105048160
+    text: SkillTool executing forked skill 
+    address: 0x105048200
+    text: SkillTool forked skill 
+    address: 0x1050487bc
+    text: SkillTool returning 
+    address: 0x10504c864
+    text: packagingAliasSkillToolNames
+total: 9
+
+===== AskUserQuestionTool =====
+total: 0
+
+===== ListMcpResourcesTool =====
+    address: 0x105299344
+    text: ListMcpResourcesTool)
+total: 1
+
+===== ReadMcpResourceTool =====
+    address: 0x105293fa0
+    text: ReadMcpResourceTool
+total: 1
+
+===== TodoWriteTool =====
+total: 0
+
+===== ToolSearchTool =====
+    address: 0x104d4053c
+    text: isToolSearchToolAvailable
+    address: 0x1053bcb08
+    text: Tool search disabled: ToolSearchTool is not available (may have been disallowed via disallowedTools).
+total: 2
+
+===== getAllBaseTools =====
+    address: 0x104e10764
+    text: getAllBaseTools
+total: 1
+
+===== getTools =====
+    address: 0x104d39c20
+    text: getToolsListErrorForResult
+    address: 0x104d4f508
+    text: getToolsMachine
+    address: 0x104d4f520
+    text: getToolsOmittedByLaunchList
+    address: 0x104da35a0
+    text: getTools
+total: 4
+
+===== ALL_AGENT_TOOLS =====
+total: 0
+
+===== toolDefinitions =====
+    address: 0x104f4ff08
+    text: toolDefinitions
+total: 1
+
+===== TOOL_DEFINITIONS =====
+total: 0
+
+===== canUseTool =====
+    address: 0x104dfcb08
+    text: canUseTool
+    address: 0x104e0f7a8
+    text: Cannot destructure property 'canUseTool' from null or undefined value
+    address: 0x104fc92ec
+    text: canUseTool returned a schema-invalid permission result for 
+    address: 0x104fc9330
+    text: The canUseTool callback returned an invalid permission result. 
+    address: 0x10517ceb8
+    text: canUseToolNarrowings%
+    address: 0x1053312bc
+    text: canUseToolInvalidResult
+    address: 0x1053312dc
+    text: canUseToolRequestFailed
+    address: 0x1053312fc
+    text: canUseToolAborted
+    address: 0x1053dbe2c
+    text: , but canUseTool is required
+total: 9
+
+===== permissionMode =====
+    address: 0x104d7d9f8
+    text: permissionModeCli
+    address: 0x104d7ddf8
+    text: permissionMode
+    address: 0x104d7e1f4
+    text: permissionModeSuppliedOnInvocation
+    address: 0x104da24d0
+    text: permissionModeTyped
+    address: 0x104df8898
+    text: permissionModeInherited
+    address: 0x104e122bc
+    text: Cannot destructure property 'permissionMode' from null or undefined value
+    address: 0x104f59f2c
+    text: permissionModeAtRequest
+    address: 0x104f952dc
+    text: permissionModeNotification
+    address: 0x104f99a54
+    text: permissionModeCliSet
+    address: 0x1051a204c
+    text: Deferred tool resume: permissionMode mismatch (deferred under '
+    address: 0x1051a4b64
+    text: Subagent declared permissionMode: 
+    address: 0x1051a4c08
+    text: declared permissionMode
+    address: 0x1051bb9bc
+    text: Cannot destructure property 'permissionModeCli' from null or undefined valueL
+    address: 0x10532c570
+    text:  has invalid permissionMode '
+    address: 0x105367c88
+    text: Subagent definition's permissionMode would put it in auto mode, but auto mode is unavailable to this subagent (reason=
+    address: 0x10539113c
+    text: permissionModes
+total: 16
+
+===== runTools =====
+total: 0
+
+===== runToolUse =====
+    address: 0x1053be2d0
+    text: runToolUse error
+    address: 0x1053be3c8
+    text: runToolUse
+total: 2
+
+===== streamingToolExecutor =====
+    address: 0x104f505c4
+    text: streamingToolExecutor
+total: 1
+
+===== normalizeToolInput =====
+    address: 0x1051a6244
+    text: The plan content (injected by normalizeToolInput from disk)
+    address: 0x1051a6288
+    text: The plan file path (injected by normalizeToolInput)
+    address: 0x10536b4c8
+    text: normalizeToolInput Read.offset coercion failed: 
+total: 3
+
+===== validateToolInput =====
+total: 0
+
+===== betaAgentToolset20260401 =====
+    address: 0x104d5bf20
+    text: betaAgentToolset20260401
+total: 1
+
+===== mcpServers =====
+    address: 0x104d85be8
+    text: mcpServers
+    address: 0x104f3d82c
+    text: [bridge:server-config] mcp_config has no mcpServers
+    address: 0x10504decc
+    text: mcpServers.
+    address: 0x1050507e0
+    text: mcpServers[
+    address: 0x105052c24
+    text: " sets headersHelper but is not "strict": false. An entry with headersHelper must inline its full manifest (strict: false, with commands/agents/hooks/mcpServers declared in the entry) so users can review what it ships before the command runs; Claude Code refuses to run the helper otherwise.
+    address: 0x105142608
+    text: mcpServersAdded
+    address: 0x105142620
+    text: mcpServersRemoved
+    address: 0x10532f38c
+    text: mcpServersNeedingConfig
+    address: 0x10536eca4
+    text: mcpServersPending
+    address: 0x1053d27ec
+    text:  has invalid mcpServers item: 
+    address: 0x1053d8f14
+    text: Rename the top-level "servers" key to "mcpServers" in 
+total: 11
+
+===== McpServerManager =====
+total: 0
+
